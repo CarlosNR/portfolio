@@ -11,14 +11,16 @@ function ColorSchemesExample() {
     
       <Navbar className={styles.navBar}>
         <Container>
+
           <Navbar.Brand>            
             <Link className={styles.navBrand} to="/">Navbar</Link>
           </Navbar.Brand>
-          <Nav className="me-auto">
+
+          <Nav className="ml-auto">
             <Link className={styles.navLink} to="/">Home</Link>
             <Link className={styles.navLink} to="/quem">Quem sou</Link>
-
           </Nav>
+          
         </Container>
       </Navbar>
 
