@@ -1,0 +1,18 @@
+.navLink{
+    color: rgb(254,250,224);
+    margin: 0 5px;
+}
+
+.navBar{
+    background-color: rgb(221,161,94);
+    color: rgb(254,250,224);
+}
+
+.navBrand{
+    text-decoration: none;
+    color: rgb(40,54,24);
+}
+
+.navBrand:hover{
+    color: rgb(40,54,24);
+}
