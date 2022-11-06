@@ -5,10 +5,10 @@ import {
   Routes,
   Route
 } from 'react-router-dom'
+
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import QuemSou from './pages/QuemSou'
-
 
 function App() {
 
@@ -19,15 +19,13 @@ function App() {
         <Navbar/>
         <Routes>
     
-          <Route path="/" element={
-            <h3>
+          <Route path="/" element={           
               <Home/>
-            </h3>}
+            }
           />
           <Route path="/quem" element={
-            <h3>
-              <QuemSou/>
-            </h3>}
+            <QuemSou/>
+          }
           />
  
         </Routes>
