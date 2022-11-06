@@ -18,7 +18,12 @@
     
 }
 
-.navButton:hover{
+.navButtonUm{
+    margin: 0 5px;
+    color: var(--links);
+}
+
+.navButton:hover, .navButtonUm:hover{
     background-color: var(--navbar) !important;
 }
 /*  */
@@ -39,14 +44,11 @@
 }
 /*  */
 
-
-.navButton{
-    margin: 5px 5px 0 5px;
-    color: var(--links)
-}
-
-@media (min-width: 641px) {
-    .navButton{
-        margin: 5px 5px 0 5px;
+@media (max-width: 1000px) {
+    
+    .navButtonUm{
+        margin: 15px 5px 5px 5px;
     }
+    
 }
+

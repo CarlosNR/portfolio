@@ -19,7 +19,7 @@ export default function ColorSchemesExample() {
           <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="ms-auto">
-              <Button variant="outline-success" className={styles.navButton}>
+              <Button variant="outline-success" className={styles.navButtonUm}>
                 <Link className={styles.navLink} to="/">Home</Link>
               </Button>
               <Button variant="outline-success" className={styles.navButton} >

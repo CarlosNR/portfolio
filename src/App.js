@@ -9,7 +9,6 @@ import {
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import QuemSou from './pages/QuemSou'
-import Footer from './components/Footer'
 
 function App() {
 
@@ -17,6 +16,7 @@ function App() {
     <div className="App">
     
       <Router>
+        {/* <Navbar/> */}
         <Navbar/>
         <Routes>
     

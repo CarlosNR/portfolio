@@ -44,7 +44,7 @@ body{
 .spanHome{
   display: block;
   text-align: justify;
-  color: rgb(222, 154, 106);
+  color: var(--texto);
   border-radius: 1%;
   margin: 10px 30px;
   padding: 1px;
