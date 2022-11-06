@@ -5,27 +5,27 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function ColorSchemesExample() {
-  return (
-    <>
-    
-      <Navbar className={styles.navBar}>
-        <Container>
 
+export default function ColorSchemesExample() {
+  return (
+    
+      <Navbar className={styles.navBar} expand="md">
+        <Container>
           <Navbar.Brand>            
             <Link className={styles.navBrand} to="/">Navbar</Link>
           </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
 
-          <Nav className="ml-auto">
-            <Link className={styles.navLink} to="/">Home</Link>
-            <Link className={styles.navLink} to="/quem">Quem sou</Link>
-          </Nav>
-          
+            <Nav className="ms-auto">
+              <Link className={styles.navLink} to="/">Home</Link>
+              <Link className={styles.navLink} to="/quem">Quem sou</Link>
+
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
 
-    </>
+
   )
 }
-
-export default ColorSchemesExample;
