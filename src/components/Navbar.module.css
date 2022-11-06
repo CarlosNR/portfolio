@@ -28,10 +28,17 @@
 }
 /*  */
 
-.navBar{
+/* navbar */
+.navBarDesk{
     background-color: var(--texto);
     color: var(--links);
 }
+
+.navBarMob{
+    background-color: var(--texto);
+    color: var(--links);
+}
+/*  */
 
 /* brand */
 .navBrand{
@@ -44,11 +51,32 @@
 }
 /*  */
 
-@media (max-width: 1000px) {
+/* desktop */
+@media (min-width: 900px) {
+    
+    .navBarDesk{
+        display: flex;    
+    }
+    .navBarMob{
+        display: none !important;    
+        background-color: blue;
+    }
+
+}
+
+/* mobile */
+@media (max-width: 900px) {
     
     .navButtonUm{
         margin: 15px 5px 5px 5px;
     }
-    
+    .navBarDesk{
+        display: none !important;    
+        background-color: blue;
+
+    }
+    .navBarMob{
+        display: flex;    
+    }
 }
 
