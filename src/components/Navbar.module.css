@@ -1,18 +1,52 @@
+/* link */
 .navLink{
-    color: rgb(254,250,224);
-    margin: 0 5px;
+    color: var(--links);
+    text-decoration: none;
+    position: relative;
+    display: inline-block; /* Header are 100% width by their default block behaviour */
 }
+
+.navLink:hover{
+    color: var(--links);   
+}
+/*  */
+
+/* button */
+.navButton{
+    margin: 0 5px;
+    color: var(--links);
+    
+}
+
+.navButton:hover{
+    background-color: var(--navbar) !important;
+}
+/*  */
 
 .navBar{
-    background-color: rgb(221,161,94);
-    color: rgb(254,250,224);
+    background-color: var(--texto);
+    color: var(--links);
 }
 
+/* brand */
 .navBrand{
     text-decoration: none;
-    color: rgb(40,54,24);
+    color: var(--navbar);
 }
 
 .navBrand:hover{
-    color: rgb(40,54,24);
+    color: var(--navbar);
+}
+/*  */
+
+
+.navButton{
+    margin: 5px 5px 0 5px;
+    color: var(--links)
+}
+
+@media (min-width: 641px) {
+    .navButton{
+        margin: 5px 5px 0 5px;
+    }
 }

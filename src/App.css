@@ -1,8 +1,18 @@
+:root{
+  --fundo:rgb(96,108,56);
+  --texto:rgb(222, 154, 106);
+  --links:rgb(254, 250, 224);
+  --navbar:rgb(40,54,24);
+  --laranjaEscuro:rgb(188,108,37);
+}
+
 .App {
   text-align: center;
-  background-color: rgb(96,108,56);
-  height: 100vh;
+  background-color: var(--fundo);
+}
 
+body{
+  background-color: var(--fundo) !important;
 }
 
 .App-logo {
@@ -37,14 +47,14 @@
   color: rgb(222, 154, 106);
   border-radius: 1%;
   margin: 10px 30px;
-  height: 40% !important;
+  padding: 1px;
+  
 }
 
 
 h1{
-  margin: 10px 30px;
-  color:  rgb(254, 250, 224);
-
+  margin: 30px 15px 20px 15px !important;
+  color:  var(--links);
 }
 
 @keyframes App-logo-spin {
@@ -57,9 +67,3 @@ h1{
 }
 
 
-/* margin responsivo */
-@media (min-width: 700px) {
-  body {
-    margin-top: 2%;
-  }
-}

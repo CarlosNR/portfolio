@@ -1,0 +1,21 @@
+/* classe local */
+.social_list{
+    display: flex;
+    /* centralização horizontal */
+    justify-content: center;
+    /* centralização vertical */
+    align-items: center;
+    list-style: none;
+}
+/* classe global, envolve todos li do footer */
+.social_list li{
+    margin: 0 1em;
+}
+
+/* classe global, envolve todos svg do footer */
+.social_list svg{
+    font-size: 1.5em;
+    /* simula um link */
+    cursor: pointer;
+    color: lightcoral;
+}
