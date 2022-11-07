@@ -15,7 +15,6 @@
 .navButton{
     margin: 0 5px;
     color: var(--links);
-    
 }
 
 .navButtonUm{
@@ -26,6 +25,7 @@
 .navButton:hover, .navButtonUm:hover{
     background-color: var(--navbar) !important;
 }
+
 /*  */
 
 /* navbar */
@@ -50,6 +50,27 @@
     color: var(--navbar);
 }
 /*  */
+
+.offCanvasHead{
+    background-color: var(--laranjaEscuro) !important;
+}
+
+.offCanvasBody{
+    background-color: var(--fundo) !important;
+}
+
+.offCanvasButton{
+    padding: 0;
+    margin: 5px 0;
+    width: 100%;
+    height: 8%;
+    color: var(--links);
+}
+
+.offCanvasButton:hover{
+    background-color: var(--navbar) !important;
+}
+
 
 /* desktop */
 @media (min-width: 900px) {

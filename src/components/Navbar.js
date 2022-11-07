@@ -28,6 +28,12 @@ export default function ColorSchemesExample() {
               <Button variant="outline-success" className={styles.navButton} >
                 <Link className={styles.navLink} to="/quem">Quem sou</Link>
               </Button>
+              <Button variant="outline-success" className={styles.navButtonUm}>
+                <Link className={styles.navLink} to="/projetos">Projetos</Link>
+              </Button>
+              <Button variant="outline-success" className={styles.navButton} >
+                <Link className={styles.navLink} to="/contato">Contato</Link>
+              </Button>
 
             </Nav>
           </Navbar.Collapse>
@@ -42,17 +48,43 @@ export default function ColorSchemesExample() {
           </Navbar.Brand>
 
           <Navbar.Toggle onClick={showSidebar} className="ms-auto"/>
+
           <Container>  
 
             <Offcanvas show={show} onHide={closeSidebar}>  
 
-              <Offcanvas.Header closeButton>  
-                <Offcanvas.Title>Menu</Offcanvas.Title>  
+              <Offcanvas.Header className={styles.offCanvasHead} closeButton>  
+                <Offcanvas.Title className={styles.canvasMenu}>Menu</Offcanvas.Title>  
               </Offcanvas.Header>  
               
-              <Offcanvas.Body>  
-                  <Link className={styles.sideLink} to="/">Home</Link>
-                  <Link className={styles.sideLink} to="/quem">Quem sou</Link>
+              <Offcanvas.Body className={styles.offCanvasBody}>  
+                {/* Colocar o button DENTRO do link, se não o botão fecha 
+                o menu principal e a palavra dentro do botão redireciona e 
+                fecha o menu */}
+                <Link to="/" onClick={closeSidebar}>
+                  <Button variant="outline-success" className={styles.offCanvasButton}>
+                    Home
+                  </Button>
+                </Link>
+
+                <Link to="/quem" onClick={closeSidebar}>
+                  <Button variant="outline-success" className={styles.offCanvasButton}>
+                    Quem Sou
+                  </Button>
+                </Link>
+
+                <Link to="/projetos" onClick={closeSidebar}>
+                  <Button variant="outline-success" className={styles.offCanvasButton}>
+                    Projetos
+                  </Button>
+                </Link>
+
+                <Link to="/contato" onClick={closeSidebar}>
+                  <Button variant="outline-success" className={styles.offCanvasButton}>
+                    Contato
+                  </Button>
+                </Link>
+
               </Offcanvas.Body>  
 
             </Offcanvas> 

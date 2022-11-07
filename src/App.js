@@ -9,6 +9,8 @@ import {
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import QuemSou from './pages/QuemSou'
+import Projetos from './pages/Projetos'
+import Contato from './pages/Contato'
 
 function App() {
 
@@ -21,13 +23,20 @@ function App() {
         <Routes>
     
           <Route path="/" element={           
-              <Home/>
-            }
-          />
+            <Home/>
+          }/>
+          
           <Route path="/quem" element={
             <QuemSou/>
-          }
-          />
+          }/>
+
+          <Route path="/projetos" element={
+            <Projetos/>
+          }/>
+
+          <Route path="/contato" element={
+            <Contato/>
+          }/>
  
         </Routes>
         {/* <Footer/> */}
