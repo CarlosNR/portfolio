@@ -22,18 +22,29 @@ export default function ColorSchemesExample() {
           <Navbar.Collapse id="basic-navbar-nav">
 
             <Nav className="ms-auto">
-              <Button variant="outline-success" className={styles.navButtonUm}>
-                <Link className={styles.navLink} to="/">Home</Link>
-              </Button>
-              <Button variant="outline-success" className={styles.navButton} >
-                <Link className={styles.navLink} to="/quem">Quem sou</Link>
-              </Button>
-              <Button variant="outline-success" className={styles.navButtonUm}>
-                <Link className={styles.navLink} to="/projetos">Projetos</Link>
-              </Button>
-              <Button variant="outline-success" className={styles.navButton} >
-                <Link className={styles.navLink} to="/contato">Contato</Link>
-              </Button>
+              <Link to="/">
+                <Button variant="outline-success" className={styles.navButton}>
+                  Home
+                </Button>
+              </Link>
+
+              <Link to="/quem">
+                <Button variant="outline-success" className={styles.navButton}>
+                  Quem sou
+                </Button>
+              </Link>
+
+              <Link to="/projetos">
+                <Button variant="outline-success" className={styles.navButton}>
+                  Projetos
+                </Button>
+              </Link>
+
+              <Link to="/contato">
+                <Button variant="outline-success" className={styles.navButton}>
+                  Contato
+                </Button>
+              </Link>
 
             </Nav>
           </Navbar.Collapse>

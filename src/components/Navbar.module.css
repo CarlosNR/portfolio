@@ -1,28 +1,12 @@
-/* link */
-.navLink{
-    color: var(--links);
-    text-decoration: none;
-    position: relative;
-    display: inline-block; /* Header are 100% width by their default block behaviour */
-}
-
-.navLink:hover{
-    color: var(--links);   
-}
-/*  */
-
 /* button */
 .navButton{
     margin: 0 5px;
     color: var(--links);
+    text-decoration: none;
+    position: relative;
 }
 
-.navButtonUm{
-    margin: 0 5px;
-    color: var(--links);
-}
-
-.navButton:hover, .navButtonUm:hover{
+.navButton:hover{
     background-color: var(--navbar) !important;
 }
 
@@ -64,40 +48,40 @@
     margin: 5px 0;
     width: 100%;
     height: 8%;
-    color: var(--links);
+    color: var(--laranjaEscuro) !important;
 }
 
 .offCanvasButton:hover{
     background-color: var(--navbar) !important;
 }
 
-
 /* desktop */
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     
     .navBarDesk{
         display: flex;    
     }
     .navBarMob{
         display: none !important;    
-        background-color: blue;
+        background-color: blue !important;
     }
 
 }
 
 /* mobile */
-@media (max-width: 900px) {
+@media (max-width: 991px) {
     
     .navButtonUm{
         margin: 15px 5px 5px 5px;
     }
     .navBarDesk{
         display: none !important;    
-        background-color: blue;
+        background-color: blue !important;
 
     }
     .navBarMob{
         display: flex;    
     }
 }
+
 
