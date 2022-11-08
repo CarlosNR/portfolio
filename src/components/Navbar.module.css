@@ -24,16 +24,10 @@
 }
 /*  */
 
-/* brand */
-.navBrand{
-    text-decoration: none;
-    color: var(--navbar);
+.icone{
+    height: 50px !important;
+    width: 50px !important;
 }
-
-.navBrand:hover{
-    color: var(--navbar);
-}
-/*  */
 
 .offCanvasHead{
     background-color: var(--laranjaEscuro) !important;
@@ -56,6 +50,7 @@
 }
 
 /* desktop */
+/* 992 -> lg do bootstrap */
 @media (min-width: 992px) {
     
     .navBarDesk{

@@ -6,8 +6,11 @@ export default function QuemSou(){
             <h1>Quem sou</h1>
             
             <h3>
+                
                 <span className="spanHome">
-                    <LoremIpsum p={2}/>
+                    <p>
+                        Meu nome é Carlos Nunes Ramos, graduado em Sistemas de informação (2019) e Mestre em engenharia de computação (2022). Tenho interesse no desenvolvimento de sistemas web e estou migrando do php e mysql para as tecnologias front-end.
+                    </p>
                 </span>
             </h3>
             

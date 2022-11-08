@@ -1,3 +1,4 @@
 npm install react-router-dom
 npm install react-lorem-ipsum
 npm install react-icons
+npm install react-bootstrap bootstrap

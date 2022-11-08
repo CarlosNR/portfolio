@@ -4,8 +4,8 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import {Button, Container, Offcanvas} from 'react-bootstrap'  
 import {useState} from 'react'  
+import icone from './navbar.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
 
 export default function ColorSchemesExample() {
   const [show, setShow] = useState(false);  
@@ -16,7 +16,9 @@ export default function ColorSchemesExample() {
       <Navbar className={styles.navBarDesk} expand="lg">
         <Container>
           <Navbar.Brand>            
-            <Link className={styles.navBrand} to="/">Navbar</Link>
+            <Link  to="/">
+              <img className={styles.icone} src={icone} alt="Navbar"/>
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -55,7 +57,9 @@ export default function ColorSchemesExample() {
         <Container>
 
           <Navbar.Brand>            
-            <Link className={styles.navBrand} to="/">Navbar</Link>
+            <Link  to="/">
+              <img className={styles.icone} src={icone} alt="Navbar"/>
+            </Link>
           </Navbar.Brand>
 
           <Navbar.Toggle onClick={showSidebar} className="ms-auto"/>
@@ -69,9 +73,9 @@ export default function ColorSchemesExample() {
               </Offcanvas.Header>  
               
               <Offcanvas.Body className={styles.offCanvasBody}>  
+
                 {/* Colocar o button DENTRO do link, se não o botão fecha 
-                o menu principal e a palavra dentro do botão redireciona e 
-                fecha o menu */}
+                o menu principal e apenas a palavra dentro do botão redireciona */}
                 <Link to="/" onClick={closeSidebar}>
                   <Button variant="outline-success" className={styles.offCanvasButton}>
                     Home
