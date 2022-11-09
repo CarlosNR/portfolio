@@ -41,7 +41,7 @@ body{
   color: #61dafb;
 }
 
-.spanHome{
+.spanTexto{
   display: block;
   text-align: justify;
   color: var(--texto);
