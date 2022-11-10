@@ -1,10 +1,9 @@
+.border-top{
+    color: red !important;
+}
 .rodape{
     position: fixed bottom;
     color: var(--links);
-}
-
-.rodapeApresentacao{
-    color: var(--texto) !important;
 }
 
 /* classe local */

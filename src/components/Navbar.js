@@ -1,8 +1,6 @@
 import {Link} from 'react-router-dom'
 import styles from './Navbar.module.css'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import {Button, Container, Offcanvas} from 'react-bootstrap'  
+import {Button, Container, Offcanvas, Nav, Navbar} from 'react-bootstrap'  
 import {useState} from 'react'  
 import icone from './navbarVerde.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -15,11 +13,12 @@ export default function ColorSchemesExample() {
     <>
       <Navbar className={styles.navBarDesk} expand="lg">
         <Container>
-          <Navbar.Brand>            
-            <Link  to="/">
-              <img className={styles.icone} src={icone} alt="Navbar"/>
-            </Link>
-          </Navbar.Brand>
+          <Link  to="/">
+            <Navbar.Brand>            
+                <img className={styles.icone} src={icone} alt="Navbar"/>
+            </Navbar.Brand>
+          </Link>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
 
