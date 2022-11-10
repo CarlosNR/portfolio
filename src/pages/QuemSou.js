@@ -2,7 +2,7 @@ import placeholder from '../components/placeholder.jpg'
 
 export default function QuemSou(){
     return(
-        <div className="container">
+        <div className="container containerConteudo">
 
             <div className="row">
                 <h1>Quem sou</h1>

@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import {Button, Container, Offcanvas} from 'react-bootstrap'  
 import {useState} from 'react'  
-import icone from './navbar.png'
+import icone from './navbarVerde.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function ColorSchemesExample() {

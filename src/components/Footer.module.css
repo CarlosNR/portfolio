@@ -1,5 +1,14 @@
+.rodape{
+    position: fixed bottom;
+    color: var(--links);
+}
+
+.rodapeApresentacao{
+    color: var(--texto) !important;
+}
+
 /* classe local */
-.social_list{
+.listaContato{
     display: flex;
     /* centralização horizontal */
     justify-content: center;
@@ -8,14 +17,14 @@
     list-style: none;
 }
 /* classe global, envolve todos li do footer */
-.social_list li{
+.listaContato li{
     margin: 0 1em;
 }
 
 /* classe global, envolve todos svg do footer */
-.social_list svg{
+.listaContato svg{
     font-size: 1.5em;
     /* simula um link */
     cursor: pointer;
-    color: lightcoral;
+    color: var(--texto);
 }

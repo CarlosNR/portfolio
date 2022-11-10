@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import QuemSou from './pages/QuemSou'
 import Projetos from './pages/Projetos'
 import Contato from './pages/Contato'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -39,9 +40,8 @@ function App() {
           }/>
            
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </Router>
-
 
     </div>
   )

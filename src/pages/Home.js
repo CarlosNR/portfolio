@@ -3,7 +3,7 @@ import placeholder from '../components/placeholder.jpg'
 export default function Home(){
     return(
         
-        <div className="container">
+        <div className="container containerConteudo">
             <div className="row">
                 <h1>Homepage</h1>
             </div>
