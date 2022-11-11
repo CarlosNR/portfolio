@@ -30,7 +30,7 @@ export default function QuemSou(){
 
                             Mais recentemente tenho me envolvido com as tecnologias: Html5, Css3, Javascript, Php8, PostgreSql e React.<br/><br/>
 
-                            Porém tenho noções em: Python, Flask, Netlogo, MySql.
+                            Porém tenho noções em: Python, Netlogo, MySql.
                             
                         </span>
                     </h2>

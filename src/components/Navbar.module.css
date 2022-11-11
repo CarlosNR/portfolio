@@ -31,6 +31,7 @@
 
 .offCanvasHead{
     background-color: var(--laranjaEscuro) !important;
+    height: 10vh !important;
 }
 
 .offCanvasBody{

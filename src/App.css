@@ -49,7 +49,17 @@ body{
   border-radius: 1%;
   margin: 10px 30px;
   padding: 1px;
-    
+}
+
+.spanProfissao{
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: var(--navbar);
+
+}
+
+.corpoApresentacao{
+  height: 60vh;
 }
 .fotoHome{
   text-align: center !important;

@@ -7,13 +7,19 @@ export default function Home(){
             <div className="row">
                 <h1>Homepage</h1>
             </div>
-            <div className="row align-items-center justify-content-center">
 
-                <div className="col-lg-8 align-items-center order-last order-lg-first my-3">   
+            <div className="row align-items-center justify-content-center corpoApresentacao">
+
+                <div className="col-lg-6 align-items-center order-last order-lg-first my-3">   
                     <h3>
                         <span className="spanTexto">
-                            Prazer, sou Carlos Nunes. Desenvolvedor Front-end.
+                            Prazer, sou Carlos Nunes. 
                         </span>
+                        <span className="spanTexto spanProfissao">
+                            Desenvolvedor Front-end.
+                        </span>
+                        
+                        
                     </h3>
                 </div>
                 
