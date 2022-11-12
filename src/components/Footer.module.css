@@ -1,3 +1,6 @@
+ul{
+    margin-bottom: 0;
+}
 /* classe local */
 .listaContato{
     display: flex;

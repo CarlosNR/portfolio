@@ -22,9 +22,9 @@ export default function QuemSou(){
             
             <div className="row align-items-center justify-content-center">
 
-                <div className="col-lg-8 align-items-center order-last order-lg-first">   
+                <div className="col-lg-8 order-last order-lg-first">   
                     <h2>
-                        <span className="spanTexto">
+                        <span className="spanTexto" style={{fontSize: "calc(18px + (26 - 16) * ((100vw - 300px) / (1600 - 300)))"}}>
                             
                             Meu nome é Carlos Nunes Ramos, tenho {age} anos, sou Bacharel em Sistemas de Informação (2019) e Mestre em Engenharia de Computação (2022). Tenho interesse em desenvolvimento de sistemas web e estou migrando do Php e MySql para as tecnologias front-end.<br/><br/>
 

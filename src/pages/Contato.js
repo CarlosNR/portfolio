@@ -14,20 +14,21 @@ export default function Contato(){
                     <ul className="listaContato">
                         <li className="mt-3">
                             <HiOutlineMail/>
-                            Email
+                            Email: <span style={{color: "var(--links)"}}>si.carlosnr@gmail.com</span>
                         </li>
                         <li className="mt-3"> 
                             <FaFacebook/>           
-                            Facebook
+                            <a className='linkContato' href="https://www.facebook.com/carlos.nunesramos" target="_blank" rel="noreferrer">Facebook</a>
                         </li>
-                        <li className="mt-3">
-                            <FaGithub/>
-                            Github
+                        <li className="mt-3"> 
+                            <FaGithub/>           
+                            <a className='linkContato' href="https://github.com/CarlosNR/" target="_blank" rel="noreferrer">Github</a>
                         </li>
-                        <li className="mt-3">
-                            <FaLinkedin/>
-                            Linkedin
+                        <li className="mt-3"> 
+                            <FaLinkedin/>           
+                            <a className='linkContato' href="https://www.linkedin.com/in/carlosnunesramos/" target="_blank" rel="noreferrer">Linkedin</a>
                         </li>
+                        
                     </ul>
                 </h2>
 

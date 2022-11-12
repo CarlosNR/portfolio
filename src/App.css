@@ -54,7 +54,7 @@ body{
 }
 
 .corpoApresentacao{
-  height: 60vh;
+  height: 60vh !important;
 }
 
 h1{
@@ -102,11 +102,12 @@ h1{
 .h2Contato{
   margin-bottom: 0;
 }
+
 .containerContato{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 76vh;
+  min-height: 80vh;
 }
 
 .corpoContato{
@@ -115,7 +116,9 @@ h1{
   width: 100%;
   align-items: center !important;
 }
+
 .listaContato{
+  text-align: center;
   padding-left: 0 !important;
   margin-bottom: 0 !important;
   list-style: none;
@@ -128,6 +131,39 @@ h1{
   color: var(--texto);
   margin-right: calc(10px + (26 - 16) * ((100vw - 300px) / (1600 - 300))); 
 }
+
+.linkContato{
+  color: var(--links);
+  text-decoration: none;
+}
+
+.linkContato:hover{
+  color: var(--navbar) !important;
+  text-decoration: underline;
+}
+/*  */
+
+/* projetos */
+.containerProjetos{
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+.habilidades{
+  /* 100px no menor viewport de 300px, onde 200px no maior vierport de 1600px: */
+  width: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
+  filter: grayscale(100%) !important;
+  border: solid;
+  border-radius: 1em;
+  border-color: var(--navbar);
+}
+
+.habilidades:hover{
+  filter: grayscale(0%) !important;
+  background-color: var(--navbar);
+}
+
 /*  */
 @keyframes App-logo-spin {
   from {
