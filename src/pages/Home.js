@@ -10,17 +10,17 @@ export default function Home(){
 
             <div className="row align-items-center justify-content-center corpoApresentacao">
 
-                <div className="col-lg-6 align-items-center order-last order-lg-first my-3">   
-                    <h3>
-                        <span className="spanTexto">
+                <div className="col-lg-6 align-items-center justify-content-center order-last order-lg-first my-3">   
+                    <h2>
+                        
+                        <span className="spanTextoHome">
                             Prazer, sou Carlos Nunes. 
                         </span>
                         <span className="spanTexto spanProfissao">
                             Desenvolvedor Front-end.
-                        </span>
+                        </span>    
                         
-                        
-                    </h3>
+                    </h2>
                 </div>
                 
                 <div className="d-flex align-items-center justify-content-center col-md-4 fotoHome order-first order-lg-first my-3">

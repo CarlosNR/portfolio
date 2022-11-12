@@ -8,14 +8,14 @@ export default function Footer(){
     return(
 
         <footer className='container border-top'>
-            <div className='row my-3'>
+            <div className='row my-3 align-items-center justify-content-center'>
                 
-                <div className='col-lg-6'>
+                <div className='col-6 align-items-center'>
                     <span style={{color: "var(--texto)"}}>email: si.carlos@gmail.com</span>
                 </div>
 
               
-                <div className='col-lg-6'>
+                <div className='col-6 align-items-center'>
                 
                     <ul className={styles.listaContato}>
                         <li>

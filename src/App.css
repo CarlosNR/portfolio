@@ -42,6 +42,7 @@ body{
   color: #61dafb;
 }
 
+/* geral */
 .spanTexto{
   display: block;
   text-align: justify;
@@ -49,20 +50,11 @@ body{
   border-radius: 1%;
   margin: 10px 30px;
   padding: 1px;
-}
-
-.spanProfissao{
-  font-size: 20px;
-  text-decoration: underline;
-  text-decoration-color: var(--navbar);
-
+  font-size: calc(26px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .corpoApresentacao{
   height: 60vh;
-}
-.fotoHome{
-  text-align: center !important;
 }
 
 h1{
@@ -70,15 +62,73 @@ h1{
   color:  var(--links);
 }
 
-h2{
-  font-size: 24px !important;
-}
-
 .containerConteudo{
   width: 100%;
   min-height: 80vh !important;
 }
+/*  */
 
+/* Home */
+.spanTextoHome{
+  display: block;
+  text-align: justify;
+  color: var(--texto);
+  border-radius: 1%;
+  margin: 10px 30px;
+  padding: 1px;
+  font-size: calc(26px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.spanProfissao{
+  text-decoration: underline;
+  text-decoration-color: var(--navbar);
+  font-size: calc(20px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+@media (max-width: 992px) {
+    
+  .spanTextoHome, .spanProfissao{
+    text-align: center !important;
+  }
+
+}
+
+.fotoHome{
+  text-align: center !important;
+}
+/*  */
+
+/* Contato */
+.h2Contato{
+  margin-bottom: 0;
+}
+.containerContato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 76vh;
+}
+
+.corpoContato{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center !important;
+}
+.listaContato{
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+  list-style: none;
+  color: var(--texto);
+  font-size: calc(20px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.listaContato svg{
+  /* simula um link */
+  color: var(--texto);
+  margin-right: calc(10px + (26 - 16) * ((100vw - 300px) / (1600 - 300))); 
+}
+/*  */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
