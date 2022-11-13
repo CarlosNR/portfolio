@@ -3,7 +3,7 @@ import placeholder from '../components/emConstrucao.png'
 export default function Projetos(){
     return(
         <div className="container containerProjetos">
-            <div className="row">
+            <div className="row align-items-center justify-content-center">
                 <h1>Projetos</h1>
             </div>
             <h2 style={{marginBottom: "0"}}>

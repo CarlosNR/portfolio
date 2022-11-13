@@ -12,6 +12,7 @@ export default function Contato(){
 
                 <h2 className='h2Contato'>
                     <ul className="listaContato">
+                        
                         <li className="mt-3">
                             <HiOutlineMail/>
                             Email: <span style={{color: "var(--links)"}}>si.carlosnr@gmail.com</span>

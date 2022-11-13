@@ -16,7 +16,7 @@ export default function QuemSou(){
 
         <div className="container containerConteudo">
 
-            <div className="row">
+            <div className="row align-items-center justify-content-center">
                 <h1>Quem sou</h1>
             </div>
             
@@ -30,7 +30,7 @@ export default function QuemSou(){
 
                             Mais recentemente tenho me envolvido com as tecnologias: Html5, Css3, Javascript, Php8, PostgreSql e React.<br/><br/>
 
-                            Porém tenho noções em: Python, Netlogo, MySql.
+                            Porém tenho noções em: Python, Netlogo e MySql.
                             
                         </span>
                     </h2>

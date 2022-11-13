@@ -3,12 +3,13 @@ import logo from '../components/logo.png'
 export default function Home(){
     return(
         
-        <div className="container containerConteudo">
-            <div className="row">
+        <div className="container containerConteudo corpoApresentacao">
+            
+            <div className="row align-items-center justify-content-center">
                 <h1>Homepage</h1>
             </div>
 
-            <div className="row align-items-center justify-content-center corpoApresentacao">
+            <div className="row align-items-center justify-content-center">
 
                 <div className="col-lg-6 order-last order-lg-first my-3">   
                     <h2>
