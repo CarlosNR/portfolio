@@ -1,4 +1,4 @@
-import logo from '../components/logo.png'
+import logo from '../components/logo2.png'
 
 export default function Home(){
     return(
