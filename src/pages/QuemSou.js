@@ -1,4 +1,4 @@
-import eu from '../components/eu3x4.jpeg'
+import eu from '../components/imagens/eu3x4.jpeg'
 import {Container, Row, Col} from 'react-bootstrap'
 
 export default function QuemSou(){

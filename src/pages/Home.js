@@ -1,4 +1,4 @@
-import logo from '../components/logo2.png'
+import logo from '../components/imagens/logo2.png'
 import {Container, Row, Col} from 'react-bootstrap'
 import Image from 'react-bootstrap/Image'
 

@@ -156,6 +156,7 @@ h1{
   justify-content: center;
   min-height: 80vh;
 }
+
 .habilidades{
   /* 100px no menor viewport de 300px, onde 200px no maior vierport de 1600px: */
   width: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
@@ -172,6 +173,7 @@ h1{
 }
 
 /*  */
+
 @keyframes App-logo-spin {
   /* sentido da rotação: horario */
   from {

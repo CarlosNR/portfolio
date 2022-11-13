@@ -1,4 +1,4 @@
-import placeholder from '../components/emConstrucao.png'
+import placeholder from '../components/imagens/emConstrucao.png'
 import OverlayTop from '../components/OverlayTop.js'
 import OverlayBottom from '../components/OverlayBottom.js'
 import {Container, Row, Col} from 'react-bootstrap'
@@ -22,15 +22,15 @@ export default function Projetos(){
 
                     </Col>
                 </Row>
-                <div className="row mb-2">
-                    <div className="col">
+                <Row className="mb-2">
+                    <Col>
                         
                         <OverlayBottom placeholder={placeholder} espacamento={"mx-3"}/>
                         <OverlayTop placeholder={placeholder} espacamento={""}/>
                         <OverlayBottom placeholder={placeholder} espacamento={"mx-3"}/>
 
-                    </div>
-                </div>
+                    </Col>
+                </Row>
             </h2>
         </Container>
     )
