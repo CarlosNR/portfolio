@@ -1,32 +1,38 @@
 import placeholder from '../components/emConstrucao.png'
+import OverlayTop from '../components/OverlayTop.js'
+import OverlayBottom from '../components/OverlayBottom.js'
+import {Container, Row, Col} from 'react-bootstrap'
 
 export default function Projetos(){
     return(
-        <div className="container containerProjetos">
-            <div className="row align-items-center justify-content-center">
+        <Container className="containerProjetos">
+            <Row>
                 <h1>Projetos</h1>
-            </div>
+            </Row>
             <h2 style={{marginBottom: "0"}}>
-                <div className="row my-2">
-                    <div className="col mx-1">
+                <Row className="my-2">
+                    <Col className="mx-1">
 
-                        <img className="mx-3 habilidades" src={placeholder} alt="placeholder"/>
-                        <img className="habilidades" src={placeholder} alt="placeholder"/>
-                        <img className="mx-3 habilidades" src={placeholder} alt="placeholder"/>
+                        <OverlayTop placeholder={placeholder} espacamento={"mx-3"}/>
+                        <OverlayTop placeholder={placeholder} espacamento={""}/>
+                        <OverlayTop placeholder={placeholder} espacamento={"mx-3"}/>
 
-                    </div>
-                </div>
+                        {/* <img className="mx-3 habilidades" src={placeholder} alt="placeholder"/>
+                        <img className="habilidades" src={placeholder} alt="placeholder"/> */}
+
+                    </Col>
+                </Row>
                 <div className="row mb-2">
                     <div className="col">
                         
-                        <img className="mx-3 habilidades" src={placeholder} alt="placeholder"/>
-                        <img className="habilidades" src={placeholder} alt="placeholder"/>
-                        <img className="mx-3 habilidades" src={placeholder} alt="placeholder"/>
+                        <OverlayBottom placeholder={placeholder} espacamento={"mx-3"}/>
+                        <OverlayTop placeholder={placeholder} espacamento={""}/>
+                        <OverlayBottom placeholder={placeholder} espacamento={"mx-3"}/>
 
                     </div>
                 </div>
             </h2>
-        </div>
+        </Container>
     )
 }
 

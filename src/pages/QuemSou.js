@@ -1,5 +1,5 @@
 import eu from '../components/eu3x4.jpeg'
-
+import {Container, Row, Col} from 'react-bootstrap'
 
 export default function QuemSou(){
     const current = new Date();
@@ -14,15 +14,15 @@ export default function QuemSou(){
 
     return(
 
-        <div className="container containerConteudo">
+        <Container className="containerConteudo">
 
-            <div className="row align-items-center justify-content-center">
+            <Row className="align-items-center justify-content-center">
                 <h1>Quem sou</h1>
-            </div>
+            </Row>
             
-            <div className="row align-items-center justify-content-center">
+            <Row className="align-items-center justify-content-center">
 
-                <div className="col-lg-8 order-last order-lg-first">   
+                <Col className="col-lg-8 order-last order-lg-first">   
                     <h2>
                         <span className="spanTexto" style={{fontSize: "calc(18px + (26 - 16) * ((100vw - 300px) / (1600 - 300)))"}}>
                             
@@ -34,15 +34,15 @@ export default function QuemSou(){
                             
                         </span>
                     </h2>
-                </div>
+                </Col>
 
                 <div className="d-flex align-items-center justify-content-center col-md-4 fotoHome order-first order-lg-first">
                     <img className='eu img-thumbnail' src={eu} alt="placeholder"/>
                 </div>   
 
-            </div>    
+            </Row>    
 
-        </div>
+        </Container>
         
     )
 }

@@ -50,7 +50,7 @@ body{
   border-radius: 1%;
   margin: 10px 30px;
   padding: 1px;
-  font-size: calc(26px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .corpoApresentacao{
@@ -76,13 +76,13 @@ h1{
   border-radius: 1%;
   margin: 10px 30px;
   padding: 1px;
-  font-size: calc(26px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .spanProfissao{
   text-decoration: underline;
   text-decoration-color: var(--navbar);
-  font-size: calc(20px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .eu{
@@ -100,8 +100,8 @@ h1{
 }
 
 .logo{
-  width: calc(100px + (300 - 100) * ((100vw - 300px) / (1600 - 300)));
-  height: calc(100px + (300 - 100) * ((100vw - 300px) / (1600 - 300)));
+  width: calc(150px + (350 - 150) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(150px + (350 - 150) * ((100vw - 300px) / (1600 - 300)));
 }
 /*  */
 
@@ -130,13 +130,13 @@ h1{
   margin-bottom: 0 !important;
   list-style: none;
   color: var(--texto);
-  font-size: calc(20px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .listaContato svg{
   /* simula um link */
   color: var(--texto);
-  margin-right: calc(10px + (26 - 16) * ((100vw - 300px) / (1600 - 300))); 
+  margin-right: calc(10px + (26 - 10) * ((100vw - 300px) / (1600 - 300))); 
 }
 
 .linkContato{
@@ -173,6 +173,7 @@ h1{
 
 /*  */
 @keyframes App-logo-spin {
+  /* sentido da rotação: horario */
   from {
     transform: rotate(0deg);
   }

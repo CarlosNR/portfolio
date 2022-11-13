@@ -1,17 +1,20 @@
 import logo from '../components/logo2.png'
+import {Container, Row, Col} from 'react-bootstrap'
+import Image from 'react-bootstrap/Image'
+
 
 export default function Home(){
     return(
         
-        <div className="container containerConteudo corpoApresentacao">
+        <Container className="containerConteudo corpoApresentacao">
             
-            <div className="row align-items-center justify-content-center">
+            <Row className="align-items-center justify-content-center">
                 <h1>Homepage</h1>
-            </div>
+            </Row>
 
-            <div className="row align-items-center justify-content-center">
+            <Row className="align-items-center justify-content-center">
 
-                <div className="col-lg-6 order-last order-lg-first my-3">   
+                <Col className="col-lg-6 my-3">   
                     <h2>
                         
                         <span className="spanTextoHome">
@@ -22,14 +25,14 @@ export default function Home(){
                         </span>    
                         
                     </h2>
-                </div>
+                </Col>
                 
-                <div className="col-md-4 fotoHome order-first order-lg-first my-3">
-                    <img className='logo App-logo' src={logo} alt="placeholder"/>
-                </div>
+                <Col className="col-md-4 fotoHome my-3">
+                    <Image className='logo App-logo' src={logo} alt="placeholder"/>
+                </Col>
 
-            </div>
-        </div>
+            </Row>
+        </Container>
         
     )
 }
