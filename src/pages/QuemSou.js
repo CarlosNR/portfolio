@@ -1,4 +1,4 @@
-import placeholder from '../components/placeholder.jpg'
+import eu from '../components/eu3x4.jpeg'
 
 
 export default function QuemSou(){
@@ -37,8 +37,7 @@ export default function QuemSou(){
                 </div>
 
                 <div className="d-flex align-items-center justify-content-center col-md-4 fotoHome order-first order-lg-first">
-                    <img src={placeholder} alt="placeholder"/>
-
+                    <img className='eu img-thumbnail' src={eu} alt="placeholder"/>
                 </div>   
 
             </div>    

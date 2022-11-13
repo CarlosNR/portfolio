@@ -1,4 +1,4 @@
-import placeholder from '../components/placeholder.jpg'
+import logo from '../components/logo.png'
 
 export default function Home(){
     return(
@@ -10,7 +10,7 @@ export default function Home(){
 
             <div className="row align-items-center justify-content-center corpoApresentacao">
 
-                <div className="col-lg-6 align-items-center justify-content-center order-last order-lg-first my-3">   
+                <div className="col-lg-6 order-last order-lg-first my-3">   
                     <h2>
                         
                         <span className="spanTextoHome">
@@ -23,8 +23,8 @@ export default function Home(){
                     </h2>
                 </div>
                 
-                <div className="d-flex align-items-center justify-content-center col-md-4 fotoHome order-first order-lg-first my-3">
-                    <img src={placeholder} alt="placeholder"/>
+                <div className="col-md-4 fotoHome order-first order-lg-first my-3">
+                    <img className='logo App-logo' src={logo} alt="placeholder"/>
                 </div>
 
             </div>
