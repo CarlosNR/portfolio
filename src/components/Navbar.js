@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import styles from './Navbar.module.css'
 import {Button, Container, Offcanvas, Nav, Navbar} from 'react-bootstrap'  
 import {useState} from 'react'  
-import icone from './imagens/navbarVerde.png'
+import icone from './imagens/logo4.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function ColorSchemesExample() {
