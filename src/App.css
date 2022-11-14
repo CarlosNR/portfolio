@@ -165,12 +165,6 @@ h1{
   min-height: 80vh;
 }
 
-.containerProjetos2{
-  align-items: center;
-  justify-content: center;
-  height: 80%;
-}
-
 .habilidades{
   /* 100px no menor viewport de 300px, onde 200px no maior vierport de 1600px: */
   width: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
@@ -187,9 +181,6 @@ h1{
 }
 
 /*  */
-
-.tooltip{
-}
 
 @keyframes App-logo-spin {
   /* sentido da rotação: horario */

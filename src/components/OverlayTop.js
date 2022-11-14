@@ -4,10 +4,10 @@ import Image from 'react-bootstrap/Image'
 import classnames from 'classnames'
 
 
-export default function OverlayTop({placeholder, espacamento}) {
+export default function OverlayTop({placeholder, espacamento, mensagem}) {
   const renderTooltip = (props) => (
     <Tooltip {...props}>
-      Em construção...
+      {mensagem}
     </Tooltip>
   )
 

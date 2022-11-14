@@ -4,13 +4,12 @@ import Image from 'react-bootstrap/Image'
 import classnames from 'classnames'
 
 
-function TriggerExample({placeholder, espacamento}) {
+export default function TriggerExample({placeholder, espacamento, mensagem}) {
   const renderTooltip = (props) => (
     <Tooltip {...props}>
-      Em construção...
+      {mensagem}
     </Tooltip>
   )
-
   return (
     <OverlayTrigger
       placement="bottom"
@@ -18,8 +17,8 @@ function TriggerExample({placeholder, espacamento}) {
       overlay={renderTooltip}
     >
      <Image className={classnames('habilidades', espacamento)} src={placeholder} alt="placeholder"/>
+     
     </OverlayTrigger>
   )
 }
 
-export default TriggerExample;
