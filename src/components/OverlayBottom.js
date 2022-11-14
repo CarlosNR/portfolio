@@ -6,10 +6,10 @@ import classnames from 'classnames'
 
 function TriggerExample({placeholder, espacamento}) {
   const renderTooltip = (props) => (
-    <Tooltip id="button-tooltip" {...props}>
+    <Tooltip {...props}>
       Em construção...
     </Tooltip>
-  );
+  )
 
   return (
     <OverlayTrigger
@@ -19,7 +19,7 @@ function TriggerExample({placeholder, espacamento}) {
     >
      <Image className={classnames('habilidades', espacamento)} src={placeholder} alt="placeholder"/>
     </OverlayTrigger>
-  );
+  )
 }
 
 export default TriggerExample;

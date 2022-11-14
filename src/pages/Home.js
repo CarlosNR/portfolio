@@ -27,7 +27,7 @@ export default function Home(){
                     </h2>
                 </Col>
                 
-                <Col className="col-md-4 fotoHome my-3">
+                <Col className="col-sm-4 fotoHome my-3">
                     <Image className='logo App-logo' src={logo} alt="placeholder"/>
                 </Col>
 

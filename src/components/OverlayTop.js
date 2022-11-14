@@ -6,18 +6,18 @@ import classnames from 'classnames'
 
 export default function OverlayTop({placeholder, espacamento}) {
   const renderTooltip = (props) => (
-    <Tooltip id="button-tooltip" {...props}>
+    <Tooltip {...props}>
       Em construção...
     </Tooltip>
-  );
+  )
 
   return (
     <OverlayTrigger
       placement="top"
-      delay={{ show: 200, hide: 400 }}
+      delay={{show: 250, hide: 400}}
       overlay={renderTooltip}
     >
-    <Image className={classnames('habilidades', espacamento)} src={placeholder} alt="placeholder"/>
+      <Image className={classnames('habilidades', espacamento)} src={placeholder} alt="placeholder"/>
     </OverlayTrigger>
   )
 }
