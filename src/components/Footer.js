@@ -1,4 +1,5 @@
 import {FaFacebook, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {Container, Row, Col} from 'react-bootstrap'
 import styles from './Footer.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -6,15 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 export default function Footer(){
     return(
 
-        <footer className='container border-top'>
-            <div className='row my-3 align-items-center justify-content-center'>
+        <Container className='border-top'>
+            <Row className='my-3 align-items-center justify-content-center'>
                 
-                <div className='col-6 align-items-center'>
+                <Col className='col-6 align-items-center'>
                     <span className={styles.email}>email: si.carlos@gmail.com</span>
-                </div>
+                </Col>
 
               
-                <div className='col-6 align-items-center'>
+                <Col className='col-6 align-items-center'>
                 
                     <ul className={styles.listaFooter}>
                         <li>
@@ -29,9 +30,9 @@ export default function Footer(){
                         </li>
                     </ul>
 
-                </div>
-            </div>
-        </footer>
+                </Col>
+            </Row>
+        </Container>
 
     )
 }

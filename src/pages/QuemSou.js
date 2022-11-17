@@ -22,9 +22,9 @@ export default function QuemSou(){
             
             <Row className="align-items-center justify-content-center">
 
-                <Col className="col-lg-8 order-last order-lg-first">   
+                <Col className="col-lg-8 col-12 order-last order-lg-first">   
                     <h2>
-                        <span className="spanTexto" style={{fontSize: "calc(18px + (26 - 16) * ((100vw - 300px) / (1600 - 300)))"}}>
+                        <span className="spanTexto" style={{fontSize: "calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)))"}}>
                             
                             Meu nome é Carlos Nunes Ramos, tenho {age} anos, sou Bacharel em Sistemas de Informação (2019) e Mestre em Engenharia de Computação (2022). Tenho interesse em desenvolvimento de sistemas web e estou migrando do Php e MySql para as tecnologias front-end.<br/><br/>
 
@@ -36,9 +36,9 @@ export default function QuemSou(){
                     </h2>
                 </Col>
 
-                <div className="d-flex align-items-center justify-content-center col-md-4 fotoHome order-first order-lg-first">
+                <Col className="d-flex align-items-center justify-content-center col-lg-4 col-12 fotoHome order-first order-lg-last">
                     <img className='eu img-thumbnail' src={eu} alt="placeholder"/>
-                </div>   
+                </Col>   
 
             </Row>    
 
