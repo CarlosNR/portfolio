@@ -1,5 +1,5 @@
 import eu from '../components/imagens/eu3x4.jpeg'
-import {Container, Row, Col} from 'react-bootstrap'
+import {Container, Row, Col, Image} from 'react-bootstrap'
 
 export default function QuemSou(){
     const current = new Date()
@@ -37,7 +37,7 @@ export default function QuemSou(){
                 </Col>
 
                 <Col className="d-flex align-items-center justify-content-center col-lg-4 col-12 fotoHome order-first order-lg-last">
-                    <img className='eu img-thumbnail' src={eu} alt="placeholder"/>
+                    <Image className='eu img-thumbnail' src={eu} alt="placeholder"/>
                 </Col>   
 
             </Row>    

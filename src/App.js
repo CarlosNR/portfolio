@@ -14,8 +14,7 @@ import Projetos from './pages/Projetos'
 import Contato from './pages/Contato'
 import Footer from './components/Footer'
 
-function App() {
-
+export default function App() {
   return (
     <div className="App">
     
@@ -47,5 +46,4 @@ function App() {
   )
 }
 
-// apenas exports aqui
-export default App;
+
