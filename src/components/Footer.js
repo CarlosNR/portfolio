@@ -20,13 +20,13 @@ export default function Footer(){
                     <ul className={styles.listaContato}>
                         <li>
                             {/* <svg/> */}
-                            <FaFacebook/>
+                            <a href="https://www.facebook.com/carlos.nunesramos" target="_blank" rel="noreferrer"><FaFacebook/></a>
                         </li>
                         <li>
-                            <FaGithub/>
+                            <a href="https://github.com/CarlosNR/" target="_blank" rel="noreferrer"><FaGithub/></a>
                         </li>
                         <li>
-                            <FaLinkedin/>
+                            <a href="https://www.linkedin.com/in/carlosnunesramos/" target="_blank" rel="noreferrer"><FaLinkedin/></a>  
                         </li>
                     </ul>
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 :root{
   --fundo:rgb(96,108,56);
   --texto:rgb(222, 154, 106);
@@ -68,6 +70,7 @@ body{
 h1{
   margin: 30px 15px 20px 15px !important;
   color:  var(--links);
+  font-family: 'Abril Fatface', cursive;
 }
 
 .containerConteudo{
