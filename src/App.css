@@ -18,7 +18,7 @@ body{
   color: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     
   body{
     overflow-y: hidden !important;
@@ -166,8 +166,8 @@ h1{
 
 .habilidades{
   /* 100px no menor viewport de 300px, onde 200px no maior vierport de 1600px: */
-  width: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
-  height: calc(100px + (200 - 100) * ((100vw - 300px) / (1600 - 300)));
+  width: calc(80px + (200 - 80) * ((100vw - 300px) / (1600 - 300)));
+  height: calc(80px + (200 - 80) * ((100vw - 300px) / (1600 - 300)));
   filter: grayscale(100%) !important;
   border: solid;
   border-radius: 1em;

@@ -1,8 +1,14 @@
 ul{
     margin-bottom: 0;
 }
+
+.email{
+    color: var(--texto) !important;
+    
+}
+
 /* classe local */
-.listaContato{
+.listaFooter{
     display: flex;
     /* centralização horizontal */
     justify-content: center;
@@ -11,12 +17,12 @@ ul{
     list-style: none;
 }
 /* classe global, envolve todos li do footer */
-.listaContato li{
+.listaFooter li{
     margin: 0 1em;
 }
 
 /* classe global, envolve todos svg do footer */
-.listaContato svg{
+.listaFooter svg{
     font-size: 1.5em;
     /* simula um link */
     cursor: pointer;
