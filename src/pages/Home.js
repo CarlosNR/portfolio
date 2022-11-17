@@ -1,7 +1,5 @@
 import logo from '../components/imagens/logo4.png'
-import {Container, Row, Col} from 'react-bootstrap'
-import Image from 'react-bootstrap/Image'
-
+import {Container, Row, Col, Image} from 'react-bootstrap'
 
 export default function Home(){
     return(
