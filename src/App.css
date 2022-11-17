@@ -18,7 +18,7 @@ body{
   color: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     
   body{
     overflow-y: hidden !important;
@@ -61,10 +61,6 @@ body{
   margin: 10px 30px;
   padding: 1px;
   font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
-}
-
-.corpoApresentacao{
-  height: 60vh !important;
 }
 
 h1{

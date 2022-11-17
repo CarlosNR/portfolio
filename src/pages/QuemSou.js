@@ -2,14 +2,14 @@ import eu from '../components/imagens/eu3x4.jpeg'
 import {Container, Row, Col} from 'react-bootstrap'
 
 export default function QuemSou(){
-    const current = new Date();
-    const nasci = new Date('November 24, 1994');
+    const current = new Date()
+    const nasci = new Date('November 24, 1994')
 
-    var age = current.getFullYear() - nasci.getFullYear();
-    var m = current.getMonth() - nasci.getMonth();
+    var age = current.getFullYear() - nasci.getFullYear()
+    var m = current.getMonth() - nasci.getMonth()
 
     if (m < 0 || (m === 0 && current.getDate() < nasci.getDate())) {
-        age--;
+        age--
     }
 
     return(

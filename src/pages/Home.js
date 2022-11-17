@@ -6,7 +6,7 @@ import Image from 'react-bootstrap/Image'
 export default function Home(){
     return(
         
-        <Container className="containerConteudo corpoApresentacao">
+        <Container className="containerConteudo">
             
             <Row className="align-items-center justify-content-center">
                 <h1>Homepage</h1>
@@ -27,7 +27,7 @@ export default function Home(){
                     </h2>
                 </Col>
                 
-                <Col className="col-sm-4 fotoHome my-3">
+                <Col className="col-lg-4 col-md-6 fotoHome my-3">
                     <Image className='logo App-logo' src={logo} alt="placeholder"/>
                 </Col>
 

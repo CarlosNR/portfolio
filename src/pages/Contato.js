@@ -6,7 +6,7 @@ export default function Contato(){
     return(
 
         <Container className='containerContato'>
-            <Row className='corpoApresentacao corpoContato' >
+            <Row className='corpoContato'>
                               
                 <Col className='order-last order-lg-first my-3 '>
 

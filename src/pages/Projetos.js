@@ -7,12 +7,12 @@ export default function Projetos(){
     
     return(
         <Container className="containerProjetos">
-            <Row>
+            <Row className="align-items-center justify-content-center">
                 <h1>Projetos</h1>
             </Row>
             <h2 style={{marginBottom: "0"}}>
                 <div>
-                    <Row className="my-2">
+                    <Row className="my-2 align-items-center justify-content-center">
                         <Col className="mx-1">
 
                                 <OverlayTop placeholder={placeholder} espacamento={"mx-3"} mensagem="Em contrução..."/>
@@ -21,7 +21,7 @@ export default function Projetos(){
 
                         </Col>
                     </Row>
-                    <Row className="mb-2">
+                    <Row className="mb-2 align-items-center justify-content-center">
                         <Col>
                             
                             <OverlayBottom placeholder={placeholder} espacamento={"mx-3"} mensagem="Em contrução..."/>
