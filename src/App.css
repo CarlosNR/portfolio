@@ -18,6 +18,14 @@ body{
   color: none;
 }
 
+@media (max-width: 991px) {
+    
+  body{
+    padding-right: 0 !important;
+  }
+
+}
+
 @media (min-width: 992px) {
     
   body{

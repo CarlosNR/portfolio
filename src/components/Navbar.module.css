@@ -12,17 +12,10 @@
 
 /*  */
 
-/* navbar */
-.navBarDesk{
+.navBar{
     background-color: var(--texto);
     color: var(--links);
 }
-
-.navBarMob{
-    background-color: var(--texto);
-    color: var(--links);
-}
-/*  */
 
 .icone{
     height: 50px !important;
@@ -50,34 +43,13 @@
     background-color: var(--navbar) !important;
 }
 
-/* desktop */
-/* 992 -> lg do bootstrap */
-@media (min-width: 992px) {
-    
-    .navBarDesk{
-        display: flex;    
-    }
-    .navBarMob{
-        display: none !important;    
-        background-color: blue !important;
-    }
-
-}
-
 /* mobile */
 @media (max-width: 991px) {
     
     .navButtonUm{
         margin: 15px 5px 5px 5px;
     }
-    .navBarDesk{
-        display: none !important;    
-        background-color: blue !important;
 
-    }
-    .navBarMob{
-        display: flex;    
-    }
 }
 
 

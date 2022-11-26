@@ -1,17 +1,32 @@
 import {Link} from 'react-router-dom'
 import styles from './Navbar.module.css'
-import {Button, Container, Offcanvas, Nav, Navbar} from 'react-bootstrap'  
-import {useState} from 'react'  
+import {Button, Container, Offcanvas, Nav, Navbar, } from 'react-bootstrap'  
+import {useState, useEffect} from 'react'  
 import icone from './imagens/logo4.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default function ColorSchemesExample() {
-  const [show, setShow] = useState(false);  
-  const closeSidebar = () => setShow(false);  
-  const showSidebar = () => setShow(true);  
+
+  const [show, setShow] = useState(false) 
+  const [bootLg, SetBootLg] = useState(window.innerWidth > 991);
+
+  const closeSidebar = () => setShow(false)
+  const showSidebar = () => setShow(true)
+
+  const updateMedia = () => {
+    SetBootLg(window.innerWidth > 991)
+  }
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia)
+    return () => window.removeEventListener("resize", updateMedia);
+  }) 
+
   return (
     <>
-      <Navbar className={styles.navBarDesk} expand="lg">
+    {bootLg ? (
+
+      <Navbar className={styles.navBar} expand="lg">
         <Container>
           <Link  to="/">
             <Navbar.Brand>            
@@ -52,8 +67,9 @@ export default function ColorSchemesExample() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+    ) : (
 
-      <Navbar className={styles.navBarMob} expand="lg">
+      <Navbar className={styles.navBar} expand="lg">
         <Container>
 
           <Navbar.Brand>            
@@ -103,11 +119,10 @@ export default function ColorSchemesExample() {
               </Offcanvas.Body>  
 
             </Offcanvas> 
-
-          
+          </Container>
         </Container>
-        </Container>
-      </Navbar>
+        </Navbar>
+      )}
 
     </>
       
