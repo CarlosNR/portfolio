@@ -4,6 +4,8 @@
     color: var(--links);
     text-decoration: none;
     position: relative;
+    border-color: var(--navbar) !important;
+
 }
 
 .navButton:hover{
@@ -37,6 +39,7 @@
     width: 100%;
     height: 8%;
     color: var(--laranjaEscuro) !important;
+    border-color: var(--navbar) !important;
 }
 
 .offCanvasButton:hover{
