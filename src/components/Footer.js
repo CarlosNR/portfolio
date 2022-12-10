@@ -11,7 +11,7 @@ export default function Footer(){
             <Row className='my-3 align-items-center justify-content-center'>
                 
                 <Col className='col-6 align-items-center'>
-                    <span className={styles.email}>email: si.carlos@gmail.com</span>
+                    <span style={{color:"var(--texto)"}}>Email:</span> <span className={styles.email}>si.carlos@gmail.com</span>
                 </Col>
 
               

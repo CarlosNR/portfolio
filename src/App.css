@@ -88,7 +88,6 @@ h1{
   display: block;
   text-align: justify;
   color: var(--texto);
-  border-radius: 1%;
   margin: 10px 30px;
   padding: 1px;
   font-size: calc(22px + (26 - 22) * ((100vw - 300px) / (1600 - 300)));
@@ -162,6 +161,14 @@ h1{
 .linkContato:hover{
   color: var(--navbar) !important;
   text-decoration: underline;
+}
+
+.spanEmail{
+  color: var(--links);
+}
+
+.spanEmail:hover{
+  color: var(--navbar);
 }
 /*  */
 

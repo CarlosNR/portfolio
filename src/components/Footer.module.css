@@ -3,8 +3,11 @@ ul{
 }
 
 .email{
-    color: var(--texto) !important;
-    
+    color: var(--texto) !important;    
+}
+
+.email:hover{
+    color: var(--navbar) !important;
 }
 
 /* classe local */
@@ -28,3 +31,8 @@ ul{
     cursor: pointer;
     color: var(--texto);
 }
+
+.listaFooter svg:hover{
+    color: var(--navbar) !important;
+}
+
