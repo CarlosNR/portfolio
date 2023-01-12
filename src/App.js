@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="App">
     
-      <Router>     
+      <Router basename="/portfolio">     
         <Navbar/>
         <Routes>
     
