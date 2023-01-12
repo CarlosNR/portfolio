@@ -22,19 +22,19 @@ export default function App() {
         <Navbar/>
         <Routes>
     
-          <Route exact path="/" element={           
+          <Route path="/" element={           
             <Home/>
           }/>
          
-          <Route exact path="/quem" element={
+          <Route path="/quem" element={
             <QuemSou/>
           }/>
 
-          <Route exact path="/projetos" element={
+          <Route path="/projetos" element={
             <Projetos/>
           }/>
 
-          <Route exact path="/contato" element={
+          <Route path="/contato" element={
             <Contato/>
           }/>
            
